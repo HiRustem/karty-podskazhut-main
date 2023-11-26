@@ -53,6 +53,10 @@ button:disabled {
   pointer-events: none;
 }
 
+.content-section {
+  padding: 0 5vi;
+}
+
 .heading {
   font-family: var(--accent-font);
   font-weight: 600;
@@ -116,10 +120,6 @@ button:disabled {
   background-color: var(--accent-color);
   inset-block-end: 0.3ch;
   inset-inline-start: -4px;
-}
-
-.content-section {
-  padding: 0 5vi;
 }
 
 .content__title {
